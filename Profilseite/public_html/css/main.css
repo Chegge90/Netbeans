@@ -55,7 +55,7 @@ nav {
     background-color: red;
     /*background-color: white;*/
     color: black;
-    text-align:left;
+    text-align:center;
     width: 10%;
     height:1100px;
     float:left;
@@ -70,9 +70,9 @@ nav {
 
 
 }
-#topnav{
+#topnavi{
     background-color: grey;
-  
+    text-decoration:none;
     position:absolute;
     top:181px;
     left:5%;
@@ -81,11 +81,12 @@ nav {
     right:1px;
     float: left;
 }
-.topnav{
+
+.topnav {
     border-right-color:white; 
     border-right-style:solid;
     border-right-width:1px;
-    text-decoration:none;
+    text-decoration: none;
     color:white;
     float:left;
     height:25px;
@@ -93,9 +94,9 @@ nav {
     
     
 }
+
 .topnav:hover{
     background-color: black;
-  
     color:white;
     
 }
@@ -106,6 +107,7 @@ td {
     width:150px;
     height:33px;
     text-align: center;
+    font-size:100%;
 
 
 }
