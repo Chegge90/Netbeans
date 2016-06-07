@@ -6,12 +6,12 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>registrieren</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../../css/main.css">
     </head>
-   <body>
+    <body>
 
         <!--Headerbereich-->
 
@@ -21,67 +21,93 @@ and open the template in the editor.
 
 
             <div id="topnavi">
-         
-    <a class="menü" href="./news.html"><button class="button">News</button></a>
-    <a class="menü" href="./events.html"><button class="button">Events</button></a>
-    <a class="menü" href="./reg.html"><button class="button">Registrierung</button></a>
-    <a class="menü" href="./home.html"><button class="button">Login</button></a>
-              
-                
+
+                <a class="menü" href="./news.html"><button class="button">News</button></a>
+                <a class="menü" href="./events.html"><button class="button">Events</button></a>
+                <a class="menü" href="./reg.html"><button class="button">Registrierung</button></a>
+                <a class="menü" href="./login.html"><button class="button">Login</button></a>
+
+
 
             </div>
         </header>
-        
+
         <!-- Seiteninhalt-->
         <section>
             <article>
-                <h1> Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
-                    <br>Hier kommt der Fülltext hin 
+                <h1> Registrierung</h1>
+                <br>
+                <p> Sie sind noch nicht bei uns registriert?</p><br>
+                <p> Dann füllen Sie bitte folgende Felder aus und drücken Sie zum Abschluss den Senden-Button</p>
+                <p> Notwendige Daten sind mit * gekennzeichnet</p>
+                <br>
+
+                <h2> Registrierungsformular</h2>
+                <form action="../private/home.html">
+                    <table>
+                        <tr>
+                            <td>Benutzername* :</td>
+                            <td><input type="text" name="uname"></td>
+
+                            <td>Emailadresse* :</td>
+                            <td><input type="text" name="email"></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Vorname* :</td>
+                            <td><input type="text" name="firstname"></td> 
+
+                            <td>Ort :</td>
+                            <td><input type="text" name="ort"></td>
+
+                        </tr>
+                        <tr>
+                            <td>Nachname* :</td>
+                            <td><input type="text" name="lasttname"></td>
+                            
+                            <td>Postleitzahl :</td>
+                            <td><input type="text" name="plz"></td>
 
 
-                </h1>
+                        </tr>
+                        <tr>
+                            <td>Passwort* :</td>
+                            <td><input type="text" name="pw"></td>
+                            
+                            <td>Straße,Nr. :</td>
+                            <td><input type="text" name="straße"></td>
+
+
+                        </tr>
+                        <tr>
+                            <td>Passwort bestätigen* :</td>
+                            <td><input type="text" name="pwb"></td>
+                            
+                            <td>Geburtdatum :</td>
+                            <td><input type="text" name="gdate"></td>
+
+                        </tr>
+                    </table>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="checkbox" name="altercheck" value="checkalter"> Hiermit bestätige ich, dass ich älter als 13 Jahre bin.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" name="register" value="Senden"><br>
+                    <p> Drücke den Senden-Butten zum Abschließen deiner Registirerung.</p>
+                </form>
+
             </article>
         </section>
 
 
 
         <!-- Footer-->
-        
+
         <footer>
 
             <div id="Impressum">
