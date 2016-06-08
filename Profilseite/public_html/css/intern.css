@@ -80,6 +80,7 @@ nav {
     top:248px;
     left:10%;
     right:1px;
+    
 }
 .button {
     background-color:#000099 ;
@@ -108,7 +109,8 @@ nav {
 td {
     background-image: url(../pics/gr_button.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    /*background-size: 100%;*/
+    background-size:contain; 
     width:150px;
     height:33px;
     text-align: center;
@@ -116,9 +118,10 @@ td {
 
 
 }
-.menü {
+.menü a{
     color: black;
     text-decoration: none;
+    min-height:200px; 
 }
 
 .menü:hover{
